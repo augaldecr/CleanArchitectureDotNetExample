@@ -1,0 +1,3 @@
+﻿add-migration InitialDB -p CleanArchitectureDotNet.RepositoryEFCore -c CleanArchitectureDotNetDbContext -o Migrations -s CleanArchitectureDotNet.RepositoryEFCore
+
+update-database -p CleanArchitectureDotNet.RepositoryEFCore -s CleanArchitectureDotNet.RepositoryEFCore
